@@ -63,7 +63,7 @@ namespace OneClickSell
             }
             else
             {
-                LocalizationManager.SetOverrideText(i18n_Key_SellAllItem, "Sell All Items");
+                LocalizationManager.SetOverrideText(i18n_Key_SellAllItem, "Sell All");
             }
         }
 
