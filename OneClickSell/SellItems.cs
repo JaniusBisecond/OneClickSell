@@ -54,7 +54,8 @@ namespace OneClickSell
                                 if (!it.CanBeSold) continue;
                                 if (ItemWishlist.GetWishlistInfo(it.TypeID).isManuallyWishlisted) continue; //跳过愿望单物品
                                 if (playerInv.IsIndexLocked(i)) continue; //跳过锁住的格子
-                                }
+                                if (it.TypeID == 451) continue; //跳过现金
+                            }
                             catch
                             {
                                 continue;
