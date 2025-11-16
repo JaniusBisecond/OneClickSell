@@ -34,10 +34,10 @@ namespace OneClickSell
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Z))
-            {
-                CharacterMainControl.Main.PopText("OneClickSell Mod Active!");
-            }
+            //if (Input.GetKeyDown(KeyCode.Z))
+            //{
+            //    CharacterMainControl.Main.PopText("OneClickSell Mod Active!");
+            //}
 
         }
 
